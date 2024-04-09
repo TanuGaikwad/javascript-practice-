@@ -8,7 +8,7 @@
 <script>
 
 
- console.log("Argument and Return");
+ //Argument and Return//
   function areaOfSquare(side)
   {
     const area = side * side;
@@ -19,29 +19,35 @@
  
  
 
-console.log("Argument but no Return");
+//Argument but no Return//
 function hey(userName){
 console.log(`Hey ${userName}`);
 }
 hey('Tanvi');
 
 
- console.log("No Argument No Return");
+ //No Argument No Return//
  function sayHey(){
     console.log('Hey');
  }
  sayHey();
 
 
- console.log("No Argument but Return");
- function getScore()
- {
+ //No Argument but Return//
+ function getScore() {
  return 80; 
  }
  const Score = getScore();
  console.log(Score);
 
 
+//Area of circle//
+
+ let AreaOfCircle=(r)=>{
+  let pie=3.14
+  return pie*r*r
+ }
+console.log(AreaOfCircle(3));
  </script>
  </body>
 </html>
